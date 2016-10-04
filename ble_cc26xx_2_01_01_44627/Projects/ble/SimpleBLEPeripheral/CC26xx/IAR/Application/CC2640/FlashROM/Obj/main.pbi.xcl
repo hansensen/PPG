@@ -132,7 +132,6 @@ C:\ti\simplelink\PPG\ble_cc26xx_2_01_01_44627\Components\npi
 -DCC26XX=1
 -DNPI_USE_UART=1
 -DOSAL_SNV=2
--DCC2650EM_5XD_PPG=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
