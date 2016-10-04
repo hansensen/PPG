@@ -5,7 +5,7 @@ digraph configuration {
     concentrate=true;
     compound=true;
     label="\nConfiguration for configPkg/appBLE.xrm3"
-  node [font=Helvetica, fontsize=14, fontcolor=black];  subgraph cluster0 {label=""; __cfg [label="D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Config/appBLE.cfg", color=white, fontcolor=blue];
+  node [font=Helvetica, fontsize=14, fontcolor=black];  subgraph cluster0 {label=""; __cfg [label="C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Config/appBLE.cfg", color=white, fontcolor=blue];
     node [font=Helvetica, fontsize=10];    subgraph cluster1 {
         label="";
         xdc_services_global__top [shape=box,label="xdc.services.global\n1,0,0,0", color=white];
@@ -419,6 +419,6 @@ digraph configuration {
     ti_sysbios_xdcruntime__bot -> iar_targets_arm_M3__1_0_7__40_2 [ltail=cluster37];
     iar_targets_arm_M3__1_0_7__40_2 [shape=record,label="iar.targets.arm.M3|1,0,7.40,2",style=filled, fillcolor=lightgrey];
     ti_sysbios_utils__bot -> iar_targets_arm_M3__1_0_7__40_2 [ltail=cluster38];
-    iar_targets_arm_M3__1_0_7__50_1 [shape=record,label="iar.targets.arm.M3|1,0,7.50,1",style=filled, fillcolor=lightgrey];
-    configPkg__top -> iar_targets_arm_M3__1_0_7__50_1 [ltail=cluster39];
+    iar_targets_arm_M3__1_0_7__70_2 [shape=record,label="iar.targets.arm.M3|1,0,7.70,2",style=filled, fillcolor=lightgrey];
+    configPkg__top -> iar_targets_arm_M3__1_0_7__70_2 [ltail=cluster39];
 }

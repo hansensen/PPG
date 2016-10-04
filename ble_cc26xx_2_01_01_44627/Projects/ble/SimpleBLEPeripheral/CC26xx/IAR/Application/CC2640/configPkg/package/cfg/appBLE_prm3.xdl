@@ -3,8 +3,8 @@
  * linkcmd.xdt in the ti.platforms.simplelink package and will be overwritten.
  */
 
-"D:\PPG\Implementation\ble_cc26xx_2_01_01_44627_0925\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Application\CC2640\configPkg\package\cfg\appBLE_prm3.orm3"
-"D:\PPG\Implementation\ble_cc26xx_2_01_01_44627_0925\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Config\src\sysbios\sysbios.arm3"
+"C:\ti\simplelink\PPG\ble_cc26xx_2_01_01_44627\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Application\CC2640\configPkg\package\cfg\appBLE_prm3.orm3"
+"C:\ti\simplelink\PPG\ble_cc26xx_2_01_01_44627\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Config\src\sysbios\sysbios.arm3"
 "C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\iar\targets\arm\rts\lib\release\boot.arm3"
 
 

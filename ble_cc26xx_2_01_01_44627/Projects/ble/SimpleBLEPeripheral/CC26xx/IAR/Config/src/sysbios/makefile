@@ -1,7 +1,7 @@
 
 MAKEFLAGS = -j16
 
-RTSLIB = -iC:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/lib/ -llibc.a
+RTSLIB = -iC:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/lib/ -llibc.a
 
 XDCLIB = -l "C:/ti/xdctools_3_31_01_33_core/packages/iar/targets/arm/rts/lib/release/boot.arm3" 
 
@@ -10,7 +10,7 @@ XOPTS = -I"C:/ti/xdctools_3_31_01_33_core/packages/" -I"C:/ti/xdctools_3_31_01_3
 vpath % C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/
 vpath %.c C:/ti/xdctools_3_31_01_33_core/packages/
 
-CCOPTS    = --aeabi --cpu=Cortex-M3 --diag_suppress=Pa050,Go005 --endian=little -e --thumb --silent  --mfc -Ohz  -Dti_sysbios_family_arm_cc26xx_Boot_driverlibVersion=2 -Dti_sysbios_family_arm_m3_Hwi_enableException__D=TRUE -Dti_sysbios_family_arm_m3_Hwi_disablePriority__D=32U -Dti_sysbios_family_arm_m3_Hwi_numSparseInterrupts__D=0U  --dlib_config C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/inc/c/DLib_Config_Normal.h
+CCOPTS    = --aeabi --cpu=Cortex-M3 --diag_suppress=Pa050,Go005 --endian=little -e --thumb --silent  --mfc -Ohz  -Dti_sysbios_family_arm_cc26xx_Boot_driverlibVersion=2 -Dti_sysbios_family_arm_m3_Hwi_enableException__D=TRUE -Dti_sysbios_family_arm_m3_Hwi_disablePriority__D=32U -Dti_sysbios_family_arm_m3_Hwi_numSparseInterrupts__D=0U  --dlib_config C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/inc/c/DLib_Config_Normal.h
 
 XDC_ROOT  = C:/ti/xdctools_3_31_01_33_core/packages/
 
@@ -24,15 +24,15 @@ BIOS_INC  = -I"C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packa
 
 TARGET_INC = -I"C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/"
 
-INCS = $(BIOS_INC) $(TARGET_INC)   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../Source/Application/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Include/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/ICall/Include/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/Roles/CC26xx/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/Roles/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/DevInfo/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/SimpleProfile/CC26xx/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/SimpleProfile/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/common/cc26xx/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/applib/heap/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/ble/hci/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/ble/controller/CC26xx/include/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/ble/host/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/hal/target/CC2650/rom/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/hal/target/CC2650TIRTOS/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/hal/target/_common/cc26xx/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/hal/include/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/osal/include/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/services/sdata/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/services/saddr/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/icall/include/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/ble/include/   -IC:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/   -IC:/ti/tirtos_simplelink_2_13_00_06/packages/   -IC:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_5XD_PPG/   -ID:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/npi/   -IC:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ 
+INCS = $(BIOS_INC) $(TARGET_INC)   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../Source/Application/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Include/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/ICall/Include/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/Roles/CC26xx/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/Roles/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/DevInfo/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/SimpleProfile/CC26xx/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/Profiles/SimpleProfile/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Projects/ble/common/cc26xx/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/applib/heap/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/ble/hci/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/ble/controller/CC26xx/include/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/ble/host/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/hal/target/CC2650/rom/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/hal/target/CC2650TIRTOS/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/hal/target/_common/cc26xx/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/hal/include/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/osal/include/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/services/sdata/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/services/saddr/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/icall/include/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/ble/include/   -IC:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/   -IC:/ti/tirtos_simplelink_2_13_00_06/packages/   -IC:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_5XD_PPG/   -IC:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/../../../../../../../Components/npi/   -IC:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ 
 
-CC = LC_ALL=C  C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/bin/iccarm $(CCOPTS)
-ASM = LC_ALL=C  C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/bin/iasmarm --cpu Cortex-M3 --endian little -S
-AR = LC_ALL=C  C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/bin/iarchive 
+CC = LC_ALL=C  C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/bin/iccarm $(CCOPTS)
+ASM = LC_ALL=C  C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/bin/iasmarm --cpu Cortex-M3 --endian little -S
+AR = LC_ALL=C  C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/bin/iarchive 
 
-CC_LIB = C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/bin/iccarm --aeabi --cpu=Cortex-M3 --diag_suppress=Pa050,Go005 --endian=little -e --thumb --silent  --mfc -Ohz  -Dti_sysbios_family_arm_cc26xx_Boot_driverlibVersion=2 -Dti_sysbios_family_arm_m3_Hwi_enableException__D=TRUE -Dti_sysbios_family_arm_m3_Hwi_disablePriority__D=32U -Dti_sysbios_family_arm_m3_Hwi_numSparseInterrupts__D=0U -I C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/include
+CC_LIB = C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/bin/iccarm --aeabi --cpu=Cortex-M3 --diag_suppress=Pa050,Go005 --endian=little -e --thumb --silent  --mfc -Ohz  -Dti_sysbios_family_arm_cc26xx_Boot_driverlibVersion=2 -Dti_sysbios_family_arm_m3_Hwi_enableException__D=TRUE -Dti_sysbios_family_arm_m3_Hwi_disablePriority__D=32U -Dti_sysbios_family_arm_m3_Hwi_numSparseInterrupts__D=0U -I C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/include
 
-CC_PP = C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/bin/iccarm --aeabi --cpu=Cortex-M3 --diag_suppress=Pa050,Go005 --endian=little -e --thumb --silent  --mfc   -Dti_sysbios_family_arm_cc26xx_Boot_driverlibVersion=2 -Dti_sysbios_family_arm_m3_Hwi_enableException__D=TRUE  -Dti_sysbios_family_arm_m3_Hwi_numSparseInterrupts__D=0U -I C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/include  --dlib_config C:/PROGRA~1/IARSYS~1/EMBEDD~1.3/arm/inc/c/DLib_Config_Normal.h
+CC_PP = C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/bin/iccarm --aeabi --cpu=Cortex-M3 --diag_suppress=Pa050,Go005 --endian=little -e --thumb --silent  --mfc   -Dti_sysbios_family_arm_cc26xx_Boot_driverlibVersion=2 -Dti_sysbios_family_arm_m3_Hwi_enableException__D=TRUE  -Dti_sysbios_family_arm_m3_Hwi_numSparseInterrupts__D=0U -I C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/include  --dlib_config C:/PROGRA~2/IARSYS~1/EMBEDD~1.5/arm/inc/c/DLib_Config_Normal.h
 
 DEL = cmd.exe /q /c del /f
 CP = cmd.exe /q /c copy /Y
@@ -74,14 +74,14 @@ mangled__BIOS_lib.pp: BIOS.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/BIOS.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs _BIOS_lib.pp mangled__BIOS_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.BIOS_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.BIOS_config.c
+mangled_ti.sysbios.BIOS_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.BIOS_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.BIOS_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.BIOS_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.BIOS_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.BIOS_config_lib.pp mangled_ti.sysbios.BIOS_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.BIOS_RtsGateProxy_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.BIOS_RtsGateProxy_config.c
+mangled_ti.sysbios.BIOS_RtsGateProxy_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.BIOS_RtsGateProxy_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.BIOS_RtsGateProxy_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.BIOS_RtsGateProxy_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.BIOS_RtsGateProxy_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.BIOS_RtsGateProxy_config_lib.pp mangled_ti.sysbios.BIOS_RtsGateProxy_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_knl_Clock_lib.pp: knl/Clock.c
@@ -89,9 +89,9 @@ mangled_knl_Clock_lib.pp: knl/Clock.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Clock.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs knl_Clock_lib.pp mangled_knl_Clock_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.knl.Clock_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Clock_config.c
+mangled_ti.sysbios.knl.Clock_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Clock_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.knl.Clock_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Clock_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Clock_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.knl.Clock_config_lib.pp mangled_ti.sysbios.knl.Clock_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_knl_Idle_lib.pp: knl/Idle.c
@@ -114,9 +114,9 @@ mangled_knl_Mailbox_lib.pp: knl/Mailbox.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Mailbox.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs knl_Mailbox_lib.pp mangled_knl_Mailbox_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.knl.Mailbox_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Mailbox_config.c
+mangled_ti.sysbios.knl.Mailbox_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Mailbox_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.knl.Mailbox_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Mailbox_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Mailbox_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.knl.Mailbox_config_lib.pp mangled_ti.sysbios.knl.Mailbox_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_knl_Queue_lib.pp: knl/Queue.c
@@ -124,9 +124,9 @@ mangled_knl_Queue_lib.pp: knl/Queue.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Queue.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs knl_Queue_lib.pp mangled_knl_Queue_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.knl.Queue_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Queue_config.c
+mangled_ti.sysbios.knl.Queue_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Queue_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.knl.Queue_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Queue_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Queue_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.knl.Queue_config_lib.pp mangled_ti.sysbios.knl.Queue_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_knl_Semaphore_lib.pp: knl/Semaphore.c
@@ -134,9 +134,9 @@ mangled_knl_Semaphore_lib.pp: knl/Semaphore.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Semaphore.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs knl_Semaphore_lib.pp mangled_knl_Semaphore_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.knl.Semaphore_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Semaphore_config.c
+mangled_ti.sysbios.knl.Semaphore_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Semaphore_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.knl.Semaphore_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Semaphore_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Semaphore_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.knl.Semaphore_config_lib.pp mangled_ti.sysbios.knl.Semaphore_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_knl_Swi_lib.pp: knl/Swi.c
@@ -149,9 +149,9 @@ mangled_knl_Swi_andn_lib.pp: knl/Swi_andn.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Swi_andn.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs knl_Swi_andn_lib.pp mangled_knl_Swi_andn_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.knl.Swi_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Swi_config.c
+mangled_ti.sysbios.knl.Swi_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Swi_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.knl.Swi_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Swi_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Swi_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.knl.Swi_config_lib.pp mangled_ti.sysbios.knl.Swi_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_knl_Task_lib.pp: knl/Task.c
@@ -159,19 +159,19 @@ mangled_knl_Task_lib.pp: knl/Task.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Task.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs knl_Task_lib.pp mangled_knl_Task_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.knl.Task_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Task_config.c
+mangled_ti.sysbios.knl.Task_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Task_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.knl.Task_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Task_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Task_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.knl.Task_config_lib.pp mangled_ti.sysbios.knl.Task_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.knl.Clock_TimerProxy_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Clock_TimerProxy_config.c
+mangled_ti.sysbios.knl.Clock_TimerProxy_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Clock_TimerProxy_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.knl.Clock_TimerProxy_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Clock_TimerProxy_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Clock_TimerProxy_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.knl.Clock_TimerProxy_config_lib.pp mangled_ti.sysbios.knl.Clock_TimerProxy_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.knl.Task_SupportProxy_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Task_SupportProxy_config.c
+mangled_ti.sysbios.knl.Task_SupportProxy_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Task_SupportProxy_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.knl.Task_SupportProxy_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Task_SupportProxy_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.knl.Task_SupportProxy_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.knl.Task_SupportProxy_config_lib.pp mangled_ti.sysbios.knl.Task_SupportProxy_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_arm_m3_Hwi_lib.pp: family/arm/m3/Hwi.c
@@ -179,9 +179,9 @@ mangled_arm_m3_Hwi_lib.pp: family/arm/m3/Hwi.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/Hwi.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs arm_m3_Hwi_lib.pp mangled_arm_m3_Hwi_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.family.arm.m3.Hwi_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.m3.Hwi_config.c
+mangled_ti.sysbios.family.arm.m3.Hwi_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.m3.Hwi_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.family.arm.m3.Hwi_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.m3.Hwi_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.m3.Hwi_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.family.arm.m3.Hwi_config_lib.pp mangled_ti.sysbios.family.arm.m3.Hwi_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_arm_m3_TaskSupport_lib.pp: family/arm/m3/TaskSupport.c
@@ -189,9 +189,9 @@ mangled_arm_m3_TaskSupport_lib.pp: family/arm/m3/TaskSupport.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/TaskSupport.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs arm_m3_TaskSupport_lib.pp mangled_arm_m3_TaskSupport_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.family.arm.m3.TaskSupport_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.m3.TaskSupport_config.c
+mangled_ti.sysbios.family.arm.m3.TaskSupport_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.m3.TaskSupport_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.family.arm.m3.TaskSupport_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.m3.TaskSupport_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.m3.TaskSupport_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.family.arm.m3.TaskSupport_config_lib.pp mangled_ti.sysbios.family.arm.m3.TaskSupport_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_arm_cc26xx_Boot_lib.pp: family/arm/cc26xx/Boot.c
@@ -224,9 +224,9 @@ mangled_arm_cc26xx_Timer_lib.pp: family/arm/cc26xx/Timer.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/cc26xx/Timer.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs arm_cc26xx_Timer_lib.pp mangled_arm_cc26xx_Timer_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.family.arm.cc26xx.Timer_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.cc26xx.Timer_config.c
+mangled_ti.sysbios.family.arm.cc26xx.Timer_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.cc26xx.Timer_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.family.arm.cc26xx.Timer_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.cc26xx.Timer_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.cc26xx.Timer_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.family.arm.cc26xx.Timer_config_lib.pp mangled_ti.sysbios.family.arm.cc26xx.Timer_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_arm_cc26xx_TimestampProvider_lib.pp: family/arm/cc26xx/TimestampProvider.c
@@ -234,9 +234,9 @@ mangled_arm_cc26xx_TimestampProvider_lib.pp: family/arm/cc26xx/TimestampProvider
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/cc26xx/TimestampProvider.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs arm_cc26xx_TimestampProvider_lib.pp mangled_arm_cc26xx_TimestampProvider_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.family.arm.cc26xx.TimestampProvider_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.cc26xx.TimestampProvider_config.c
+mangled_ti.sysbios.family.arm.cc26xx.TimestampProvider_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.cc26xx.TimestampProvider_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.family.arm.cc26xx.TimestampProvider_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.cc26xx.TimestampProvider_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.family.arm.cc26xx.TimestampProvider_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.family.arm.cc26xx.TimestampProvider_config_lib.pp mangled_ti.sysbios.family.arm.cc26xx.TimestampProvider_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_hal_Hwi_lib.pp: hal/Hwi.c
@@ -254,14 +254,14 @@ mangled_hal_Hwi_startup_lib.pp: hal/Hwi_startup.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/hal/Hwi_startup.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs hal_Hwi_startup_lib.pp mangled_hal_Hwi_startup_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.hal.Hwi_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.hal.Hwi_config.c
+mangled_ti.sysbios.hal.Hwi_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.hal.Hwi_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.hal.Hwi_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.hal.Hwi_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.hal.Hwi_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.hal.Hwi_config_lib.pp mangled_ti.sysbios.hal.Hwi_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.hal.Hwi_HwiProxy_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.hal.Hwi_HwiProxy_config.c
+mangled_ti.sysbios.hal.Hwi_HwiProxy_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.hal.Hwi_HwiProxy_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.hal.Hwi_HwiProxy_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.hal.Hwi_HwiProxy_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.hal.Hwi_HwiProxy_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.hal.Hwi_HwiProxy_config_lib.pp mangled_ti.sysbios.hal.Hwi_HwiProxy_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_heaps_HeapMem_lib.pp: heaps/HeapMem.c
@@ -269,14 +269,14 @@ mangled_heaps_HeapMem_lib.pp: heaps/HeapMem.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/heaps/HeapMem.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs heaps_HeapMem_lib.pp mangled_heaps_HeapMem_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.heaps.HeapMem_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.heaps.HeapMem_config.c
+mangled_ti.sysbios.heaps.HeapMem_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.heaps.HeapMem_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.heaps.HeapMem_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.heaps.HeapMem_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.heaps.HeapMem_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.heaps.HeapMem_config_lib.pp mangled_ti.sysbios.heaps.HeapMem_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.heaps.HeapMem_Module_GateProxy_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.heaps.HeapMem_Module_GateProxy_config.c
+mangled_ti.sysbios.heaps.HeapMem_Module_GateProxy_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.heaps.HeapMem_Module_GateProxy_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.heaps.HeapMem_Module_GateProxy_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.heaps.HeapMem_Module_GateProxy_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.heaps.HeapMem_Module_GateProxy_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.heaps.HeapMem_Module_GateProxy_config_lib.pp mangled_ti.sysbios.heaps.HeapMem_Module_GateProxy_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_gates_GateHwi_lib.pp: gates/GateHwi.c
@@ -284,9 +284,9 @@ mangled_gates_GateHwi_lib.pp: gates/GateHwi.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/gates/GateHwi.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs gates_GateHwi_lib.pp mangled_gates_GateHwi_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.gates.GateHwi_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.gates.GateHwi_config.c
+mangled_ti.sysbios.gates.GateHwi_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.gates.GateHwi_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.gates.GateHwi_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.gates.GateHwi_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.gates.GateHwi_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.gates.GateHwi_config_lib.pp mangled_ti.sysbios.gates.GateHwi_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_gates_GateMutex_lib.pp: gates/GateMutex.c
@@ -294,9 +294,9 @@ mangled_gates_GateMutex_lib.pp: gates/GateMutex.c
 	C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/gates/GateMutex.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs gates_GateMutex_lib.pp mangled_gates_GateMutex_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_ti.sysbios.gates.GateMutex_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.gates.GateMutex_config.c
+mangled_ti.sysbios.gates.GateMutex_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.gates.GateMutex_config.c
 	@$(CC_PP) --preprocess=nl ti.sysbios.gates.GateMutex_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.gates.GateMutex_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/ti.sysbios.gates.GateMutex_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs ti.sysbios.gates.GateMutex_config_lib.pp mangled_ti.sysbios.gates.GateMutex_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_xdc_runtime_xdc_noinit_lib.pp: xdc/runtime/xdc_noinit.c
@@ -339,9 +339,9 @@ mangled_xdc_runtime_Error_lib.pp: xdc/runtime/Error.c
 	C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Error.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc_runtime_Error_lib.pp mangled_xdc_runtime_Error_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_xdc.runtime.Error_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Error_config.c
+mangled_xdc.runtime.Error_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Error_config.c
 	@$(CC_PP) --preprocess=nl xdc.runtime.Error_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Error_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Error_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc.runtime.Error_config_lib.pp mangled_xdc.runtime.Error_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_xdc_runtime_Gate_lib.pp: xdc/runtime/Gate.c
@@ -359,9 +359,9 @@ mangled_xdc_runtime_Memory_lib.pp: xdc/runtime/Memory.c
 	C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Memory.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc_runtime_Memory_lib.pp mangled_xdc_runtime_Memory_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_xdc.runtime.Memory_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Memory_config.c
+mangled_xdc.runtime.Memory_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Memory_config.c
 	@$(CC_PP) --preprocess=nl xdc.runtime.Memory_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Memory_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Memory_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc.runtime.Memory_config_lib.pp mangled_xdc.runtime.Memory_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_xdc_runtime_Registry_lib.pp: xdc/runtime/Registry.c
@@ -379,9 +379,9 @@ mangled_xdc_runtime_System_lib.pp: xdc/runtime/System.c
 	C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/System.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc_runtime_System_lib.pp mangled_xdc_runtime_System_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_xdc.runtime.System_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.System_config.c
+mangled_xdc.runtime.System_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.System_config.c
 	@$(CC_PP) --preprocess=nl xdc.runtime.System_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.System_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.System_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc.runtime.System_config_lib.pp mangled_xdc.runtime.System_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_xdc_runtime_SysCallback_lib.pp: xdc/runtime/SysCallback.c
@@ -389,9 +389,9 @@ mangled_xdc_runtime_SysCallback_lib.pp: xdc/runtime/SysCallback.c
 	C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/SysCallback.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc_runtime_SysCallback_lib.pp mangled_xdc_runtime_SysCallback_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_xdc.runtime.SysCallback_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.SysCallback_config.c
+mangled_xdc.runtime.SysCallback_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.SysCallback_config.c
 	@$(CC_PP) --preprocess=nl xdc.runtime.SysCallback_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.SysCallback_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.SysCallback_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc.runtime.SysCallback_config_lib.pp mangled_xdc.runtime.SysCallback_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 mangled_xdc_runtime_Text_lib.pp: xdc/runtime/Text.c
@@ -404,24 +404,24 @@ mangled_xdc_runtime_Timestamp_lib.pp: xdc/runtime/Timestamp.c
 	C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Timestamp.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc_runtime_Timestamp_lib.pp mangled_xdc_runtime_Timestamp_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_xdc.runtime.Timestamp_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Timestamp_config.c
+mangled_xdc.runtime.Timestamp_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Timestamp_config.c
 	@$(CC_PP) --preprocess=nl xdc.runtime.Timestamp_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Timestamp_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Timestamp_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc.runtime.Timestamp_config_lib.pp mangled_xdc.runtime.Timestamp_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_xdc.runtime.Memory_HeapProxy_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Memory_HeapProxy_config.c
+mangled_xdc.runtime.Memory_HeapProxy_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Memory_HeapProxy_config.c
 	@$(CC_PP) --preprocess=nl xdc.runtime.Memory_HeapProxy_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Memory_HeapProxy_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Memory_HeapProxy_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc.runtime.Memory_HeapProxy_config_lib.pp mangled_xdc.runtime.Memory_HeapProxy_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_xdc.runtime.System_Module_GateProxy_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.System_Module_GateProxy_config.c
+mangled_xdc.runtime.System_Module_GateProxy_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.System_Module_GateProxy_config.c
 	@$(CC_PP) --preprocess=nl xdc.runtime.System_Module_GateProxy_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.System_Module_GateProxy_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.System_Module_GateProxy_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc.runtime.System_Module_GateProxy_config_lib.pp mangled_xdc.runtime.System_Module_GateProxy_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
-mangled_xdc.runtime.Timestamp_SupportProxy_config_lib.pp: D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Timestamp_SupportProxy_config.c
+mangled_xdc.runtime.Timestamp_SupportProxy_config_lib.pp: C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Timestamp_SupportProxy_config.c
 	@$(CC_PP) --preprocess=nl xdc.runtime.Timestamp_SupportProxy_config_lib.pp $(BIOS_DEFS) $(XOPTS) $(INCS) \
-	D:/PPG/Implementation/ble_cc26xx_2_01_01_44627_0925/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Timestamp_SupportProxy_config.c
+	C:/ti/simplelink/PPG/ble_cc26xx_2_01_01_44627/Projects/ble/SimpleBLEPeripheral/CC26xx/IAR/Application/CC2640/configPkg/package/cfg/xdc.runtime.Timestamp_SupportProxy_config.c
 	@$(XDC_ROOT)/../xs -c C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/rom/cortexm/cc26xx/CC26xx/../mangleCFile.xs xdc.runtime.Timestamp_SupportProxy_config_lib.pp mangled_xdc.runtime.Timestamp_SupportProxy_config_lib.pp romInternFuncs.txt  "$(INTERN_FUNCS)"
 
 

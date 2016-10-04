@@ -8,7 +8,7 @@
 
 "-p" 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\CONFIG\debugger\TexasInstruments\CC2640F128.ddf" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\CONFIG\debugger\TexasInstruments\CC2640F128.ddf" 
 
 "--semihosting=none" 
 
@@ -18,7 +18,9 @@
 
 "--drv_swo_clock_setup=72000000,0,1000000" 
 
-"--xds_board_file=C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\TexasInstruments\xds\CC2650_XDS100v3_CJTAG.dat" 
+"--drv_interface=CJTAG" 
+
+"--xds_board_file=C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\config\debugger\TexasInstruments\xds\CC2650_XDS100v3_CJTAG.dat" 
 
 
 

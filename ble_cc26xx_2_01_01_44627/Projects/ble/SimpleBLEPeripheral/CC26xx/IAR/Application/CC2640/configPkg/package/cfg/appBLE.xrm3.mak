@@ -3,7 +3,7 @@
 #  package.bld.  Any modifications to this file will be 
 #  overwritten whenever makefiles are re-generated.
 #
-#  target compatibility key = iar.targets.arm.M3{1,0,7.50,1
+#  target compatibility key = iar.targets.arm.M3{1,0,7.70,2
 #
 appBLE.xrm3: package/cfg/appBLE.xrm3.mak
 

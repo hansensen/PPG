@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1927896705</fileChecksum>
+  <fileChecksum>511743140</fileChecksum>
   <configuration>
     <name>FlashOnly_OAD_ImgB</name>
     <outputs/>
@@ -22,379 +22,344 @@
   <configuration>
     <name>FlashROM</name>
     <outputs>
-      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Application\bleUserConfig.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICallPlatform.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Include\bleUserConfig.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_flash.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_aon_sysctl.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Event__prologue.h</file>
-      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\_common\cc26xx\rfHal.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\ISystemSupport.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\CC2650TIRTOS\hal_board_cfg.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Log.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_ccfg_simple_struct.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\board_key.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\CC2650EM_5XD\Board.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Types__epilogue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_fcfg1.h</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\npi_tl_spi.c</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\gatt_uuid.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\bleUserConfig.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Exe\SimpleBLEPeripheralAppFlashROM.out</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\util.__cstat.et</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\gpio.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\bleUserConfig.__cstat.et</file>
-      <file>$PROJ_DIR$\configPkg\compiler.opt.defs</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICall.__cstat.et</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Types__prologue.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICallBleAPI.__cstat.et</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_gpio.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\iar\targets\arm\std.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\iar\targets\arm\M3.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\BIOS__prologue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\BIOS__epilogue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\package\BIOS_RtsGateProxy.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\m3\Hwi__epilogue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\Hwi.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\CC2650EM_5XD\Board.c</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\std.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\_common\cc26xx\_hal_types.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Assert__prologue.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\gattservapp_util.__cstat.et</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_ccfg.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl.__cstat.et</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\simpleGATTprofile.__cstat.et</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\simpleBLEPeripheral.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ccfg_appBLE.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\gatt_uuid.__cstat.et</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_crypto.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\Board.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\include\hal_defs.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\CC2650TIRTOS\hal_types.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\uart.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ccfg_appBLE.__cstat.et</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_uart.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\devinfoservice.__cstat.et</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\tl.__cstat.et</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\peripheral.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\m3\Hwi__prologue.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\board_lcd.o</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\ITimer.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_rxbuf.__cstat.et</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\IModule.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\IHwi.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\interrupt.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\vims.h</file>
-      <file>$PROJ_DIR$\FlashROM\List\SimpleBLEPeripheralAppFlashROM.map</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\flash.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\CC2650TIRTOS\hal_mcu.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\include\ICallCC26xxDefs.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_chip_def.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_adi_4_aux.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\util.pbi</file>
-      <file>$PROJ_DIR$\configPkg\linker.cmd</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICallBleAPI.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\util.o</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_aux_anaif.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\devinfoservice.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICall.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICallBleAPI.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICallCC2650.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\bleUserConfig.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\gatt_uuid.o</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_event.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_adi.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\gattservapp_util.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\peripheral.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\Board.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\main.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\simpleBLEPeripheral.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\board_lcd.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICall.pbi</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_aux_evctl.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\aux_adc.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_aux_wuc.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Diags__prologue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\startup_files\ccfg.c</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_vims.h</file>
-      <file>$PROJ_DIR$\FlashROM\Exe\SimpleBLEPeripheralAppFlashROM.hex</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_memmap.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_uart.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Event__epilogue.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\hci\hci_event.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\host\linkdb.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\crypto\CryptoCC26XX.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\crypto.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\systick.h</file>
-      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Error__epilogue.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\peripheral.__cstat.et</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_spi.o</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ccfg_appBLE.pbi</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Assert.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\config\buildComponents.opt</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\include\hal_assert.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\IInstance.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\m3\Hwi.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\m3\package\package.defs.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\package\System_SupportProxy.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\IHeap.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\debug.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_spi.__cstat.et</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_uart.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\controller\CC26xx\include\ll.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_tl_spi.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_nvic.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\CC2650EM_5XD_PPG\Board.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\IPower.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Task__prologue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\package\Task_SupportProxy.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Task__epilogue.h</file>
-      <file>$PROJ_DIR$\configPkg\package\cfg\appBLE_prm3.orm3</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\iar\targets\arm\rts\lib\release\boot.arm3</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_uart.__cstat.et</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\hci\hci_tl.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Memory.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\ITaskSupport.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\bin\iar\driverlib.lib</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\hci_ext.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\bcomdef.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Error__prologue.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICallCC2650.pbi</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\package\package.defs.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\devinfoservice.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\CC2640App.pbd</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Queue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\package\package.defs.h</file>
-      <file>$PROJ_DIR$\..\..\Config\src\sysbios\sysbios.arm3</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Task.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Event.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_types.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\gates\GateHwi.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\gattservapp.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\simpleGATTprofile.pbi</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\cc26xx\package\package.defs.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\uart\UARTCC26XX.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\ioc.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Include\bleDispatch.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Log__epilogue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_ioc.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_ints.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Semaphore.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\l2cap.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Error.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Swi.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\UART.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Clock.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\package\Clock_TimerProxy.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\Hwi__prologue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\package\Hwi_HwiProxy.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\rom\cortexm\cc26xx\golden\CC26xx\TIRTOS_ROM.icf</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\osal\include\OSAL.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\Board.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\simpleGATTprofile.o</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\package\package.defs.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Text.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\gates\package\package.defs.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\cc26xx\PowerCC2650.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\sm.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Diags__epilogue.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\tl.o</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\hci\hci_data.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\att.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_spi.pbi</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\simpleBLEPeripheral.__cstat.et</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\package\Memory_HeapProxy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\SPI.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\dma\UDMACC26XX.h</file>
       <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\osal\include\comdef.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_rxbuf.o</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\package\Main_Module_GateProxy.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Diags.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_rxbuf.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\package\System_Module_GateProxy.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Assert__epilogue.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Types.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\IGateProvider.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_tl.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl.o</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Log__prologue.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_rxbuf.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl.pbi</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\xdc.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_udma.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\System.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\include\hal_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\l2cap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\BIOS__epilogue.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\simpleGATTprofile.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Types__prologue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\sm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\include\ICallCC26xxDefs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_gpio.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\Config\src\sysbios\sysbios.arm3</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\rom\cortexm\cc26xx\golden\CC26xx\TIRTOS_ROM.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\package\System_Module_GateProxy.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\devinfoservice.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\hci\hci_data.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Assert__epilogue.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\simpleBLEPeripheral.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\npi_tl_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\uart\UARTCC26XX.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_ioc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\package\Main_Module_GateProxy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\cc26xx\PowerCC2650.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\CC2650EM_5XD\Board.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\package\Memory_HeapProxy.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Task.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\bleUserConfig.__cstat.et</file>
       <file>$PROJ_DIR$\FlashROM\Obj\tl.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_tl_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\Hwi__prologue.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\simpleGATTprofile.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\BIOS__prologue.h</file>
+      <file>$PROJ_DIR$\configPkg\compiler.opt.defs</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\gattservapp.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICall.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Diags__prologue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\package\BIOS_RtsGateProxy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\iar\targets\arm\std.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Include\bleDispatch.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\iar\targets\arm\M3.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\m3\Hwi__epilogue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\package\Hwi_HwiProxy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\_common\cc26xx\_hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Assert__prologue.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gatt_uuid.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Semaphore.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\gates\GateHwi.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\simpleBLEPeripheral.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_ccfg.h</file>
+      <file>$PROJ_DIR$\FlashROM\Exe\SimpleBLEPeripheralAppFlashROM.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\Hwi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICallBleAPI.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Queue.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ccfg_appBLE.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_tl.h</file>
       <file>$PROJ_DIR$\FlashROM\Obj\main.__cstat.et</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lib\drivers_cc26xxware.arm3</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\Hwi__epilogue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_rxbuf.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICallBleAPI.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lib\drivers_cc26xxware.arm3</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\System.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\osal\include\OSAL.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl.pbi</file>
       <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\osal\include\OSAL_Memory.h</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\package\package.defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_udma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Diags.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\tl.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\package\package.defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\package\package.defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\include\hal_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\package\package.defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\att.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Text.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\Board.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\udma.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
       <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\include\hal_board.h</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\npi_tl.c</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\npi_rxbuf.c</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_rxbuf.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\board_lcd.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\BIOS.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICall.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\util.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICallCC2650.__cstat.et</file>
+      <file>$PROJ_DIR$\configPkg\package.mak</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\package\package.defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\board_lcd.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Types.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_vims.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\xdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\ITimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_data.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Log__prologue.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\cpu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\IGateProvider.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\aux_wuc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_adi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\vims.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\CC2650TIRTOS\hal_mcu.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICall.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\startup_files\ccfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\osal\include\OSAL_Timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\cc26xx\Power.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_aux_anaif.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICallBleAPI.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\aux_adc.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\board_lcd.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\simpleBLEPeripheral.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\util.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_aux_evctl.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\Board.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Main.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICallCC2650.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\CC2650TIRTOS\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_uart.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\peripheral.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_adi_4_aux.h</file>
+      <file>$PROJ_DIR$\configPkg\linker.cmd</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gattservapp_util.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\bleUserConfig.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\devinfoservice.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\IModule.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_aux_wuc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\devinfoservice.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_crypto.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\FlashROM\List\SimpleBLEPeripheralAppFlashROM.map</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\IHwi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_chip_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\m3\Hwi__prologue.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gatt_uuid.__cstat.et</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gatt_uuid.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_rxbuf.__cstat.et</file>
+      <file>$PROJ_DIR$\configPkg\package\cfg\appBLE_prm3.orm3</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\tl.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\CC2650EM_5XD\Board.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gattservapp_util.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_nvic.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\Board.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Error__epilogue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\m3\package\package.defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\IInstance.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ccfg_appBLE.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Event__epilogue.h</file>
+      <file>$PROJ_DIR$\FlashROM\Exe\SimpleBLEPeripheralAppFlashROM.hex</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\m3\Hwi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_tl_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\crypto\CryptoCC26XX.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\hci_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\host\linkdb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\config\buildComponents.opt</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Log.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Error__prologue.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ICallCC2650.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_ccfg_simple_struct.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\systick.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Event__prologue.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\_common\cc26xx\rfHal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Types__epilogue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Assert.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\gattservapp_util.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\hci\hci_event.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\peripheral.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\package\package.defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\ISystemSupport.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_fcfg1.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_aon_sysctl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\CC2650TIRTOS\hal_board_cfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\board_key.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\package\System_SupportProxy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Task__epilogue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\hci\hci_tl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\bin\iar\driverlib.lib</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\CC2650EM_5XD_PPG\Board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\IHeap.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\peripheral.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\crypto.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\bcomdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\package\Task_SupportProxy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\iar\targets\arm\rts\lib\release\boot.arm3</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\controller\CC26xx\include\ll.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_spi.o</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\ccfg_appBLE.__cstat.et</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_tl_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\IPower.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\interfaces\ITaskSupport.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Task__prologue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\dma\UDMACC26XX.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\applib\heap\heapmgr.h</file>
       <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\board_lcd.c</file>
       <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\board_lcd.h</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\npi_tl_uart.c</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\simpleBLEPeripheral.c</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\simpleBLEPeripheral.h</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\tl.c</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\tl.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\util.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\util.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286.h</file>
       <file>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Devices\ext_flash.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Devices\ext_flash.h</file>
       <file>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Interfaces\bsp_spi.c</file>
       <file>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Interfaces\bsp_spi.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286.c</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286_util.c</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286_util.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\pin\PINCC26XX.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\PIN.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\pin\PINCC26XX.c</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\SPI.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\SPI.c</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\spi\SPICC26XXDMA.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\spi\SPICC26XXDMA.c</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\dma\UDMACC26XX.c</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\dma\UDMACC26XX.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICall.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\applib\heap\heapmgr.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\include\ICall.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\CC2650TIRTOS\ICallAddrs.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICallCC2650.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Application\ICallBleAPI.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Include\ICallBleAPIMSG.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\gap.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Roles\gapbondmgr.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\gapgattserver.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\gatt.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\hci.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\osal\include\osal_snv.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\DevInfo\CC26xx\devinfoservice.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\DevInfo\devinfoservice.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\ext_flash_layout.h</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\npi_tl_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286_util.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\pin\PINCC26XX.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\PIN.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\pin\PINCC26XX.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\spi\SPICC26XXDMA.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\spi\SPICC26XXDMA.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Devices\ext_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\SPI.c</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\tl.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\util.h</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\simpleBLEPeripheral.c</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\npi_tl.c</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\npi_rxbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\simpleBLEPeripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\tl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\ioc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Diags__epilogue.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\util.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Clock.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Log__epilogue.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\gates\package\package.defs.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\npi_rxbuf.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\Swi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\cc26xx\package\package.defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\runtime\Error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_types.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\simpleGATTprofile.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\inc\hw_ints.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\knl\package\Clock_TimerProxy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\xdctools_3_31_01_33_core\packages\xdc\std.h</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\bleUserConfig.pbi</file>
+      <file>$PROJ_DIR$\FlashROM\Obj\CC2640App.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\UART.h</file>
+      <file>$PROJ_DIR$\..\..\Config\IAR-Boundary.bdef</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Roles\CC26xx\peripheral.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\Board.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Keys\CC26xx\simplekeys.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oadResetService.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\SimpleProfile\simpleGATTprofile.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\IAR\cc26xx_ble_app_oad.icf</file>
+      <file>$PROJ_DIR$\..\..\Config\appBLE.cfg</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\SimpleProfile\CC26xx\simpleGATTprofile.c</file>
+      <file>$PROJ_DIR$\..\..\..\Source\Application\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Keys\simplekeys.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Board.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Roles\CC26xx\peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\Config\IAR-Boundary.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\IAR\cc26xx_ble_app.icf</file>
+      <file>$PROJ_DIR$\..\..\Config\ccfg_appBLE.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Application\bleUserConfig.c</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Include\gatt_profile_uuid.h</file>
       <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\host\gatt_uuid.c</file>
       <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\gatt_uuid.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\GATT\gattservapp_util.c</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad.c</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad_target_externalFlash.c</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad_target_internalFlash.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oadResetService.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Roles\CC26xx\peripheral.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Roles\CC26xx\peripheral.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\SimpleProfile\CC26xx\simpleGATTprofile.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\SimpleProfile\simpleGATTprofile.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Keys\CC26xx\simplekeys.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Keys\simplekeys.h</file>
-      <file>$PROJ_DIR$\..\..\Config\ccfg_appBLE.c</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\Board.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Board.c</file>
-      <file>$PROJ_DIR$\..\..\..\Source\Application\main.c</file>
-      <file>$PROJ_DIR$\..\..\Config\appBLE.cfg</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\IAR\cc26xx_ble_app.icf</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\IAR\cc26xx_ble_app_oad.icf</file>
-      <file>$PROJ_DIR$\..\..\Config\IAR-Boundary.bdef</file>
-      <file>$PROJ_DIR$\..\..\Config\IAR-Boundary.xcl</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_tl_uart.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\udma.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\ICallCC2650.__cstat.et</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\Hwi__epilogue.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\hal\package\package.defs.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_data.h</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\board_lcd.__cstat.et</file>
-      <file>$PROJ_DIR$\FlashROM\Obj\gattservapp_util.pbi</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\npi\inc\npi_config.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\osal\include\OSAL_Timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICall.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICallCC2650.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\DevInfo\devinfoservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad_target_externalFlash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\include\ICall.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Include\ICallBleAPIMSG.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\GATT\gattservapp_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\gapgattserver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\hal\target\CC2650TIRTOS\ICallAddrs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICallPlatform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Application\ICallBleAPI.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\gap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\Roles\gapbondmgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\osal\include\osal_snv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\gatt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\DevInfo\CC26xx\devinfoservice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\ICall\Include\bleUserConfig.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\ext_flash_layout.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\include\hci.h</file>
       <file>$PROJ_DIR$\configPkg\package.mak</file>
-      <file>C:\ti\xdctools_3_31_01_33_core\packages\xdc\runtime\Main.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\BIOS.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\sysbios\family\arm\cc26xx\Power.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\rom.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\aux_wuc.h</file>
-      <file>C:\ti\tirtos_simplelink_2_13_00_06\products\cc26xxware_2_21_01_15600\driverlib\cpu.h</file>
     </outputs>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\ICall\Application\bleUserConfig.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 19</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 23</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 85</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 194 73 311 136 59 74 39 22 29 134 200 26 131 302 171 309 172 162 2 213 66 169 138 168 31 67 135 52 7 245 38 8 30 104 128</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 52 39 134 194 213 200 26 59 136 66 2 169 7 138 245 38 131 302 30 31 73 162 74 168 104 171 172 67 135 128 311 309 22 29</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 20 69</file>
-        </tool>
-      </outputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\Source\Application\npi_tl_spi.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 196</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 129</file>
+          <file> 27</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 117</file>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 163</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 22 223 64 194 207 175 158 99 208 154 73 119 178 160 306 215 38 131 67 203 172 133 213 8 27 15 115 305 33 245 302 148 247 134 161 123 52 301 249 66 31 60 191 127 122 187 170 162 135 309 126 11 62 14 189 307 157 104 255 176 209 101 200 136 26 59 30 124 65 35 202 147 152 198 211 40 206 32 34 186 168 74 171 311 29 141 252 173 294 216 5 112 128 39 140 142 179 244 106 166 139 107</file>
+          <file> 51 75 137 16 95 261 195 38 106 77 131 190 255 28 87 98 266 220 110 71 264 174 79 202 6 189 164 126 4 237 83 223 0 144 12 173 128 101 240 139 42 149 253 210 167 80 256 262 160 93 145 179 100 157 24 117 57 184 297 259 60 72 59 154 55 222 40 166 147 43 23 165 180 26 103 46 18 34 39 74 252 148 22 105 9 214 1 48 82 70 186 162 156 45 224 206 265 238 187 260 221 170</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 38 131 30 31 134 123 215 207 27 223 15 122 60 124 203 99 305 64 127 175 152 115 147 198 208 202 191 11 211 187 170 119 40 206 306 32 154 34 33 65 186 35 104 172 14 245 73 162 74 168 171 67 135 128 311 309 22 29 52 39 255 126 160 140 158 157 148 178 62 176 179 141 142 301 209 133 247 249 244 106 252 294 216 307 166 139 189 173 161 5 107</file>
+          <file> 178 35 270 162 16 79 59 55 222 154 139 83 72 266 220 40 42 144 173 98 95 6 75 189 167 149 166 71 38 126 137 210 261 180 164 165 26 106 23 253 179 103 80 256 190 46 18 87 34 77 39 4 147 74 43 184 264 157 237 131 262 148 252 22 110 160 156 105 93 51 9 128 45 297 145 28 224 195 57 223 255 100 259 265 214 206 101 60 174 0 240 238 187 1 82 70 117 260 221 24 48 12 186 170</file>
         </tool>
       </inputs>
     </file>
@@ -403,98 +368,53 @@
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 69</file>
+          <file> 146</file>
         </tool>
         <tool>
           <name>OBJCOPY</name>
-          <file> 103</file>
+          <file> 171</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 77 292 289 182 85 91 61 46 81 86 89 82 83 84 92 201 210 130 90 45 185 192 79 143 159 144 149 221 114 6 137</file>
+          <file> 133 283 284 13 135 125 86 58 136 151 159 88 64 127 142 258 96 204 130 50 5 73 89 153 11 215 208 65 172 192 181</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\Source\Application\npi_tl.c</name>
+      <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 214</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 43</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 210</file>
+          <name>ILINK</name>
+          <file> 53 146</file>
         </tool>
       </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 127 158 207 152 178 66 213 11 122 293 198 64 22 104 302 31 157 38 223 203 60 309 141 138 123 52 194 215 305 202 99 176 119 245 73 134 175 142 307 160 301 8 166 139 208 191 62 187 170 186 306 74 171 128 162 189 244 172 255 209 101 200 136 26 59 131 30 27 15 40 206 147 115 179 211 124 65 154 33 67 140 112 35 32 34 168 106 135 311 29 148 126 39</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 38 131 30 31 134 307 215 207 27 223 15 166 119 40 305 64 127 122 175 152 115 147 198 208 202 203 99 191 206 157 158 178 11 211 187 170 62 186 176 179 139 189 123 60 124 306 32 154 34 33 65 35 244 245 73 162 74 168 104 171 172 67 135 128 311 309 22 29 106 160 140 148 141 142 138 255 126 52 39 209 301 293</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Source\Application\npi_rxbuf.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 212</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 63</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 201</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 66 301 194 213 162 128 138 30 168 38 104 135 309 134 52 209 302 101 200 136 26 59 131 172 311 29 112 8 31 245 74 171 67 22 39</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 38 131 30 31 134 138 245 73 162 74 168 104 171 172 67 135 128 311 309 22 29 52 39 301 209</file>
-        </tool>
-      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\board_lcd.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 94</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 299</file>
+          <file> 121</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 61</file>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 94</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 147 73 32 38 207 175 203 213 223 152 215 178 119 311 306 27 15 64 142 11 74 200 26 194 131 122 305 127 211 206 186 160 176 157 22 29 138 173 8 136 59 302 134 60 202 198 40 34 208 158 140 62 107 245 171 309 172 162 228 247 123 30 66 31 124 65 35 99 191 115 187 170 154 33 161 148 141 179 67 135 236 5 168 104 128</file>
+          <file> 83 137 131 98 266 144 95 26 261 222 210 167 195 105 190 39 106 224 148 59 16 149 75 126 23 46 71 100 179 57 51 9 209 48 202 154 55 79 220 87 6 189 165 180 103 18 34 74 28 255 206 259 170 237 22 93 264 262 228 0 173 40 139 42 166 147 43 38 253 164 80 256 77 4 12 223 214 265 110 160 236 186 252 184 156</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 120 24 291 236 38 131 194 213 200 26 59 136 66 302 30 31 134 247 73 123 215 207 27 223 15 122 60 124 203 99 305 64 127 175 152 115 147 198 208 202 191 11 211 187 170 119 40 206 306 32 154 34 33 65 186 35 173 158 157 160 140 148 178 62 176 179 141 142 161 5 107 228 138 245 162 74 168 104 171 172 67 135 128 311 309 22 29</file>
+          <file> 178 35 270 236 266 220 16 79 59 55 222 154 139 83 40 42 144 0 131 173 98 95 6 75 189 167 149 166 71 38 126 137 210 261 180 164 165 26 106 23 253 179 103 80 256 190 46 18 87 34 77 39 4 147 74 43 48 195 57 28 224 223 255 100 259 265 214 206 12 186 170 228 209 237 262 148 252 184 22 264 110 160 156 105 93 51 9</file>
         </tool>
       </inputs>
     </file>
@@ -503,79 +423,17 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 105</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 145</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 130</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 64 158 223 194 213 65 207 179 73 178 160 122 38 127 175 136 134 162 307 157 172 177 302 59 131 11 215 191 187 170 305 309 140 62 161 123 138 301 101 200 26 30 124 35 27 15 99 208 115 203 154 33 128 39 141 186 104 119 255 52 176 293 167 66 8 31 60 306 202 147 152 198 211 40 206 32 34 126 245 142 166 139 67 5 112 168 74 171 22 135 311 29 148 53 173 55 107</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 38 131 30 31 134 123 215 207 27 223 15 122 60 124 203 99 305 64 127 175 152 115 147 198 208 202 191 11 211 187 170 119 40 206 306 32 154 34 33 65 186 35 104 172 255 73 126 138 245 162 74 168 171 67 135 128 311 309 22 29 52 39 160 140 158 157 148 178 62 176 179 141 142 301 293 177 167 307 166 139 53 55 173 161 5 107</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Source\Application\simpleBLEPeripheral.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 93</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 197</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 45</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 194 15 134 127 207 27 64 74 75 222 146 148 147 122 186 160 104 128 123 265 158 202 38 208 157 203 124 215 178 171 162 3 190 177 267 13 66 213 11 141 302 31 115 305 175 35 32 245 73 22 309 183 136 52 172 168 306 310 262 279 235 231 119 8 223 198 187 170 179 107 65 34 154 131 67 87 10 53 255 135 16 151 173 307 244 97 96 263 164 281 261 259 228 138 236 233 101 200 26 59 140 142 30 152 40 206 99 191 211 62 176 161 5 60 33 166 139 106 311 29 88 80 98 193 121 308 71 113 70 260 112 264 218 108 132 199 51 39 303 126 224 55 4 195 174 247</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 160 38 131 30 31 134 215 207 27 223 15 122 140 158 175 152 305 64 127 147 198 208 202 115 119 40 203 99 191 206 11 211 187 170 157 148 186 178 62 176 179 141 142 173 161 5 107 123 60 124 306 32 154 34 33 65 35 307 166 139 244 245 73 162 74 168 104 171 172 67 135 128 311 309 22 29 106 177 97 87 88 75 80 310 98 96 146 264 151 199 52 39 51 183 308 222 303 255 126 132 121 218 224 10 71 113 53 55 70 3 4 16 193 108 263 195 174 262 164 267 281 279 261 260 190 265 259 235 228 13 138 231 236 247 233</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Source\Application\tl.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
           <file> 219</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 57</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 192</file>
+          <file> 169</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 215 127 122 207 11 175 38 161 305 223 64 203 134 171 158 200 26 194 31 208 176 186 301 138 128 162 204 157 27 15 99 152 148 119 160 32 74 104 233 178 8 136 59 302 213 191 198 187 170 141 62 306 222 168 73 22 309 123 298 209 131 30 66 202 147 115 211 40 206 140 142 179 107 60 34 52 308 51 67 173 5 124 65 35 154 33 183 39 199 303 255 126 245 172 135 311 29</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 173 38 131 194 213 200 26 59 136 66 302 30 31 134 215 207 27 223 15 122 158 203 99 305 64 127 175 152 115 147 198 208 202 191 11 211 187 170 119 40 206 157 160 140 148 186 178 62 176 179 141 142 161 5 107 123 60 124 306 32 154 34 33 65 35 298 204 52 39 183 308 199 51 222 303 255 73 126 301 138 245 162 74 168 104 171 172 67 135 128 311 309 22 29 209 233</file>
+          <file> 43 95 195 98 106 79 261 266 137 265 131 255 28 38 75 77 154 144 262 117 57 264 269 83 55 16 40 166 6 189 164 71 126 4 93 224 100 12 173 209 101 72 59 222 220 167 179 147 253 210 80 256 156 45 214 74 184 190 297 128 259 31 21 139 202 42 149 87 23 165 180 26 103 46 18 34 39 145 237 206 260 221 110 186 162 252 148 22 51 160 105 9 223 108 48 129 170</file>
         </tool>
       </inputs>
     </file>
@@ -584,187 +442,125 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 76</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 21</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 79</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 136 62 59 215 202 158 134 38 305 223 122 175 203 8 207 64 141 302 157 194 198 127 99 11 178 119 73 39 173 151 179 200 26 213 147 152 107 255 235 176 131 30 66 31 27 15 40 206 208 115 191 211 161 148 186 160 126 199 51 187 170 140 142 5 52</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 73 178 38 131 194 213 200 26 59 136 66 302 30 31 134 215 207 27 223 15 122 158 119 40 305 64 127 175 152 115 147 198 208 202 203 99 191 206 11 211 187 170 62 186 157 176 179 173 160 140 148 141 142 161 5 107 255 126 151 199 52 39 51 235</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICall.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 95</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 25</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 82</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 203 122 172 134 38 215 65 62 1 207 131 194 127 191 175 173 213 66 305 208 154 11 158 64 178 39 309 73 254 180 181 296 30 223 34 157 142 119 136 7 311 29 101 163 160 306 255 256 297 8 200 26 59 302 31 27 15 152 198 186 124 35 99 187 170 32 179 140 141 5 52 245 104 128 135 162 36 115 202 147 123 60 211 40 206 33 188 176 148 161 107 126 2 169 138 168 74 171 67 22 112</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 36 38 131 194 213 200 26 59 136 66 302 30 31 134 215 207 27 223 15 122 180 297 175 152 305 64 127 147 198 208 202 115 65 186 181 296 123 60 124 203 99 191 11 211 187 170 119 40 206 306 32 154 34 33 35 163 188 178 158 62 157 176 179 160 140 148 141 142 173 161 5 107 255 73 126 1 256 52 39 2 169 7 138 245 162 74 168 104 171 172 67 135 128 311 309 22 29 254 112 101</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICallCC2650.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 153</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 295</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 84</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 126 27 31 15 194 152 223 38 166 175 208 215 122 305 119 189 134 213 139 30 40 64 207 198 176 158 106 66 73 302 157 131 206 203 127 147 11 187 170 186 72 307 255 200 136 26 59 178 8 202 115 62 1 99 191 179 211</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 1 134 194 213 200 26 59 136 66 255 73 126 302 72 307 38 131 30 31 215 207 27 223 15 166 119 40 305 64 127 122 175 152 115 147 198 208 202 203 99 191 206 157 158 178 11 211 187 170 62 186 176 179 139 189 106</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\ICall\Application\ICallBleAPI.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 78</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 28</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 83</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 51 132 309 194 183 162 172 265 126 52 224 121 29 104 73 146 169 66 213 308 218 151 22 134 128 260 262 150 136 222 264 108 135 67 168 74 3 16 171 255 263 164 261 259 302 101 200 26 59 190 199 39 303 195 174 193 10 71 113 53 70 311 55 4 112</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 255 73 134 126 260 151 199 52 39 51 183 308 222 303 190 263 195 174 146 264 132 121 218 224 10 71 135 172 162 74 29 104 113 128 67 311 309 53 55 22 70 3 4 16 168 171 193 108 164 262 261 265 150 259 169</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\DevInfo\CC26xx\devinfoservice.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 155</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 56</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 81</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 199 267 66 213 51 194 263 39 255 126 183 269 134 303 73 174 195 151 271 164 302 101 200 136 26 59 52 308 222 112</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 151 199 52 39 134 51 183 308 222 303 255 73 126 195 174 263 271 269 164 267</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\host\gatt_uuid.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 18</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 48</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 86</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 222 52 302 263 213 194 66 308 134 195 183 151 271 51 39 200 136 26 59 199 303 255 73 126 174</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 199 52 39 134 194 213 200 26 59 136 66 51 183 308 222 303 255 73 126 302 263 151 195 174 271</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\GATT\gattservapp_util.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 300</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 41</file>
+          <file> 123</file>
         </tool>
         <tool>
           <name>ICCARM</name>
           <file> 89</file>
         </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 254</file>
+        </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 134 194 213 66 195 308 263 52 151 222 174 183 109 164 199 51 39 200 136 26 59 303 255 73 126 302</file>
+          <file> 154 100 55 16 137 195 79 95 98 167 261 266 71 202 165 180 214 83 57 75 126 210 38 179 255 190 131 45 48 213 265 59 222 144 23 26 170 297 246 259 220 40 139 42 6 189 46 18 106 164 253 103 12 223 74 28 145 2 141 80 256 224 206 186 128</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 120 24 291 151 199 52 39 134 194 213 200 26 59 136 66 51 109 263 183 308 222 303 255 73 126 302 195 174 164</file>
+          <file> 178 35 270 131 255 266 220 16 79 59 55 222 154 139 83 40 42 144 98 95 6 75 189 167 195 190 46 126 137 210 261 180 164 165 26 106 23 71 38 253 18 179 103 80 256 100 74 57 259 265 48 28 224 223 214 206 12 186 170 297 145 213 2 128 45 141 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\simpleBLEPeripheral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 79 75 266 223 126 137 95 69 207 57 261 98 167 147 77 262 173 306 16 202 80 256 190 51 131 93 184 197 7 269 295 203 214 26 210 195 265 170 179 39 220 110 156 132 67 154 128 264 252 255 28 87 109 300 282 246 250 139 83 42 6 189 164 23 165 106 71 74 166 43 34 237 148 22 107 201 108 297 160 198 213 48 117 238 120 124 307 36 275 305 298 228 209 236 245 72 59 55 222 224 206 40 180 46 18 38 253 103 100 259 12 186 149 4 260 221 187 105 9 111 118 138 17 199 104 113 185 99 304 162 311 76 193 216 2 141 45 116 145 84 129 200 78 3 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 162 16 79 59 55 222 154 139 83 72 28 266 220 40 42 144 98 95 6 75 189 167 224 195 261 180 126 137 210 165 26 106 23 164 190 46 71 38 253 18 179 103 80 256 57 223 74 255 100 259 265 214 206 48 12 186 170 173 149 166 87 34 77 39 4 147 43 117 260 221 238 237 131 262 148 252 184 22 264 110 160 156 105 93 51 9 187 269 120 107 111 132 118 109 138 124 207 311 213 2 128 45 141 67 104 69 116 297 145 216 199 76 84 201 113 185 108 129 99 197 200 198 17 193 307 78 3 300 36 295 275 282 305 304 7 306 298 246 228 203 209 250 236 0 245</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\npi_tl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167 95 71 126 98 87 255 16 190 31 266 210 74 4 262 131 184 260 106 137 75 57 51 214 209 173 128 79 202 221 261 253 100 80 256 77 144 206 117 28 101 139 83 42 23 180 26 38 179 259 195 149 220 110 156 237 24 238 264 297 60 72 59 154 55 222 40 6 189 46 18 165 164 265 103 166 147 148 22 93 224 162 43 34 39 252 187 160 105 9 223 145 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\npi_rxbuf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131 101 16 79 262 156 209 139 40 252 266 184 160 93 144 128 60 83 72 59 154 55 222 220 264 105 9 162 202 42 237 148 22 110 51 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 162 16 79 59 55 222 154 139 83 72 266 220 40 42 144 209 237 131 262 148 252 184 22 264 110 160 156 105 93 51 9 128 45 101 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\tl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256 75 98 266 190 95 12 106 80 179 167 71 144 22 195 59 16 137 126 214 100 101 209 156 262 63 57 222 83 79 253 26 210 28 34 148 184 245 255 202 154 55 42 6 189 38 261 180 223 259 74 87 69 252 131 51 93 173 102 60 220 40 139 23 165 164 103 46 18 224 206 265 170 149 39 128 104 141 110 48 186 166 147 43 77 4 67 45 2 116 297 145 237 264 160 105 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 48 266 220 16 79 59 55 222 154 139 83 40 42 144 98 95 6 75 189 167 195 71 38 126 137 210 261 180 164 165 26 106 23 253 179 103 80 256 190 46 18 57 28 224 223 74 255 100 259 265 214 206 12 186 170 173 149 166 87 34 77 39 4 147 43 102 63 128 45 67 104 2 141 69 116 297 131 145 101 209 237 262 148 252 184 22 264 110 160 156 105 93 51 9 60 245</file>
         </tool>
       </inputs>
     </file>
@@ -773,133 +569,48 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 58</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 116</file>
+          <file> 211</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 90</file>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 194</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 33 136 26 208 104 183 172 175 279 215 67 157 200 194 30 223 64 154 158 207 309 178 306 146 213 40 148 62 11 5 73 134 222 151 264 135 128 4 260 235 265 115 38 198 127 191 122 119 179 162 108 51 168 55 217 160 173 263 109 164 261 259 302 101 59 131 31 27 15 305 147 205 125 206 203 99 9 141 211 176 186 161 52 308 218 132 224 121 29 22 112 66 8 152 202 32 34 140 142 187 170 107 171 74 311 190 199 39 303 255 126 195 174 193 10 71 113 53 70 3 16</file>
+          <file> 4 154 55 106 184 67 264 261 282 98 110 57 16 40 75 137 77 195 95 93 255 87 207 79 46 223 100 179 186 131 144 69 213 311 160 156 200 304 246 306 164 266 26 210 253 167 190 265 262 193 141 252 129 66 28 48 307 177 36 305 298 83 72 59 222 220 42 6 189 126 165 14 205 18 71 38 196 214 103 259 74 12 128 104 76 216 84 199 9 51 162 139 202 180 23 34 39 224 206 80 256 170 22 148 105 7 2 45 116 297 145 78 3 17 201 113 185 108 99 197 198</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 38 131 30 31 134 175 215 207 27 223 15 152 305 64 127 122 147 198 208 202 115 217 119 40 203 99 191 206 9 125 205 306 32 154 34 33 160 140 158 11 211 187 170 157 148 186 178 62 176 179 141 142 173 161 5 107 168 73 162 74 104 171 172 67 135 128 311 309 22 29 260 151 199 52 39 51 183 308 222 303 255 126 190 263 195 174 146 264 132 121 218 224 10 71 113 53 55 70 3 4 16 193 108 109 235 164 279 261 265 259</file>
+          <file> 178 35 270 162 16 79 59 55 222 154 139 83 72 266 220 40 42 144 261 98 95 6 75 189 180 126 137 210 167 165 26 106 23 164 66 190 46 71 38 253 18 196 205 14 87 34 77 39 4 28 224 195 179 103 80 256 57 223 74 255 100 259 265 214 206 48 12 186 170 252 131 262 148 184 22 264 110 160 156 105 93 51 9 304 213 2 128 45 141 67 104 69 116 297 145 7 307 78 3 207 311 216 199 76 84 201 113 185 108 129 99 197 200 198 17 193 177 246 36 282 305 306 298</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\SimpleProfile\CC26xx\simpleGATTprofile.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\Board.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 165</file>
+          <file> 81</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 44</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 185</file>
+          <file> 161</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 151 261 194 195 66 302 183 271 213 222 174 109 263 164 281 101 200 136 26 59 52 308 134 260 190 112 199 51 39 303 255 73 126</file>
+          <file> 95 75 266 179 156 117 131 202 98 253 195 255 154 55 16 167 221 265 184 57 79 160 93 144 262 196 166 137 100 170 173 25 252 59 222 83 264 105 9 82 14 261 180 126 18 43 71 260 190 214 220 187 237 40 139 42 148 22 110 51 66 21 205 165 106 46 38 147 103 77 4 74 12 223 28 238 48 209 24 157 269 1 240 175 70 6 189 210 164 23 26 149 87 80 256 34 39 259 108 129 224 206 186 0 212 143</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 120 24 291 112 194 213 200 26 59 136 66 302 101 151 199 52 39 134 51 183 308 222 303 255 73 126 109 195 174 263 271 164 261 260 190 281</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\Config\ccfg_appBLE.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 118</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 54</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 46</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 136 12 213 162 194 200 66 73 134 42 26 59 74 100</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 100 134 194 213 200 26 59 136 66 162 73 74 42 12</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\Board.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 184</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 50</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 91</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 122 309 215 211 38 158 73 8 64 223 186 244 136 59 302 134 172 125 175 207 33 157 168 194 311 29 123 167 104 147 203 65 154 119 162 161 11 160 294 128 37 200 26 213 135 14 208 40 99 131 67 148 245 30 66 31 74 171 22 189 9 205 152 305 206 191 124 35 166 139 179 62 307 178 141 107 106 173 138 217 177 252 249 110 216 27 15 127 115 202 198 60 306 187 170 32 34 176 53 55 140 142 5 247 111 49</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 138 245 38 131 194 213 200 26 59 136 66 302 30 31 134 73 162 74 168 104 171 172 67 135 128 311 309 22 29 37 294 216 217 215 207 27 223 15 64 127 122 175 152 305 208 202 115 147 198 119 40 203 99 191 206 9 125 205 123 60 124 11 211 187 170 306 32 154 34 33 65 186 35 307 166 157 158 178 62 176 179 139 189 14 177 167 53 55 173 160 140 148 141 142 161 5 107 252 249 247 244 106 110 111 49</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Source\Application\main.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 47</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 220</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 92</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 213 7 208 175 52 215 223 162 168 207 64 158 203 128 68 38 127 122 179 62 151 30 194 178 40 191 136 134 131 104 135 29 306 231 115 66 202 198 119 206 99 157 211 154 33 126 172 309 307 255 279 2 152 8 200 26 59 302 31 27 15 305 147 166 139 11 176 187 170 186 32 34 199 51 39 102 74 169 138 245 171 67 22 311</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 120 24 291 175 38 131 194 213 200 26 59 136 66 302 30 31 134 215 207 27 223 15 152 305 64 127 122 147 198 208 202 115 307 166 119 40 203 99 191 206 157 158 178 11 211 187 170 62 186 176 179 139 306 32 154 34 33 255 73 126 151 199 52 39 51 279 231 104 68 162 74 102 128 309 2 169 7 138 245 168 171 172 67 135 311 22 29</file>
+          <file> 178 35 270 209 237 266 220 16 79 59 55 222 154 139 83 40 42 144 131 262 148 252 184 22 264 110 160 156 105 93 51 9 25 82 70 66 98 95 6 75 189 137 210 167 261 180 126 106 23 164 165 26 190 46 71 38 253 18 196 205 14 173 149 166 179 103 80 256 87 34 77 39 4 147 74 43 117 260 57 195 255 100 259 265 221 24 157 269 21 108 129 48 28 224 223 214 206 12 186 170 1 240 0 238 187 175 212 143</file>
         </tool>
       </inputs>
     </file>
@@ -908,10 +619,284 @@
       <outputs>
         <tool>
           <name>CUSTOM</name>
-          <file> 304</file>
+          <file> 91 312</file>
         </tool>
       </outputs>
     </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\SimpleProfile\CC26xx\simpleGATTprofile.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 305 16 78 83 67 289 79 139 69 3 177 307 36 275 72 59 154 55 222 128 104 144 304 7 162 2 141 45 116 297 131 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 162 16 79 59 55 222 154 139 83 72 213 2 128 45 144 141 67 104 69 116 297 131 145 177 78 3 307 289 36 305 304 7 275</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167 137 98 18 144 95 266 38 261 128 184 112 75 57 103 106 264 213 40 139 79 23 26 210 190 71 77 4 145 131 160 9 87 250 164 220 16 255 46 253 195 265 100 154 156 262 188 252 93 117 297 282 309 180 202 59 55 222 83 42 6 189 126 165 260 221 179 259 80 256 74 34 39 2 141 45 97 148 41 209 237 22 110 51 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 261 266 220 16 79 59 55 222 154 139 83 40 42 144 98 95 6 75 189 180 126 137 210 167 165 26 106 23 164 117 260 190 46 71 38 253 18 57 195 255 179 103 80 256 100 74 259 265 221 87 34 77 39 4 297 131 145 213 2 128 45 141 282 250 184 112 262 148 97 156 93 309 41 188 209 237 252 22 264 110 160 105 51 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Config\ccfg_appBLE.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 154 183 131 262 16 59 79 144 52 55 222 148 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 115 144 16 79 59 55 222 154 139 262 131 148 52 183</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\ICall\Application\bleUserConfig.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 131 105 154 55 148 45 51 9 144 59 222 220 83 22 93 264 262 309 79 139 41 209 252 42 110 160 128 188 237 266 202 40 184 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 128 45 144 16 79 59 55 222 154 139 309 41 188 209 237 266 220 83 40 42 131 262 148 252 184 22 264 110 160 156 105 93 51 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Components\ble\host\gatt_uuid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 104 128 139 79 144 307 69 83 78 67 213 289 141 45 59 154 55 222 2 116 297 131 145 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 2 128 45 144 16 79 59 55 222 154 139 141 67 104 69 116 297 131 145 83 307 213 78 3 289</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICall.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 71 167 264 266 16 147 100 302 95 220 210 253 261 144 48 75 98 126 106 77 179 195 137 255 45 93 131 226 32 44 62 40 139 39 57 206 190 154 188 105 9 72 49 28 87 297 301 92 202 59 55 222 83 42 6 189 180 26 74 166 43 38 80 256 34 265 224 214 186 128 237 184 156 160 262 54 164 23 165 173 149 103 46 18 4 257 259 223 12 170 145 309 41 209 252 148 22 110 51 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 54 266 220 16 79 59 55 222 154 139 83 40 42 144 98 95 6 75 189 167 32 92 261 180 126 137 210 165 26 106 23 164 147 74 44 62 173 149 166 71 38 253 179 103 80 256 190 46 18 87 34 77 39 4 43 49 257 255 195 100 57 259 265 28 224 223 214 206 48 12 186 170 297 131 145 302 301 128 45 309 41 188 209 237 262 148 252 184 22 264 110 160 156 105 93 51 9 226 162 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\Components\icall\ports\tirtos\ICallCC2650.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131 79 266 139 220 165 95 210 145 98 137 18 75 190 179 24 144 83 57 71 167 126 187 16 260 221 40 42 6 189 46 261 106 180 26 100 195 74 8 117 297 59 154 55 222 255 202 23 164 259 80 256 302 38 253 265 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 302 144 16 79 59 55 222 154 139 297 131 145 83 8 117 266 220 40 42 98 95 6 75 189 260 190 46 126 137 210 167 261 180 164 165 26 106 23 71 38 253 18 57 195 255 179 103 80 256 100 74 259 265 221 24 187</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\GATT\gattservapp_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 79 69 213 307 128 139 78 104 144 3 67 177 36 2 141 45 59 154 55 222 116 297 131 145 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 213 2 128 45 144 16 79 59 55 222 154 139 141 177 307 67 104 69 116 297 131 145 83 78 3 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\ICall\Application\ICallBleAPI.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 213 148 16 154 67 252 264 144 197 306 79 131 193 141 184 262 207 41 311 160 110 156 198 51 304 300 176 139 145 128 104 76 216 84 199 9 93 22 297 307 36 305 298 83 72 59 55 222 7 2 45 116 78 3 17 201 113 185 108 99 105 129 200 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 162 16 79 59 55 222 154 139 83 72 297 131 144 145 304 213 2 128 45 141 67 104 69 116 7 307 78 3 207 311 216 199 76 84 201 113 160 264 262 148 9 184 185 156 110 105 93 108 129 51 99 197 200 198 252 22 17 193 36 300 305 306 176 298 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\DevInfo\CC26xx\devinfoservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 295 16 307 79 2 116 131 67 287 139 141 45 297 145 3 78 213 289 36 83 72 59 154 55 222 128 104 69 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 35 270 162 16 79 59 55 222 154 139 83 72 213 2 128 45 144 141 67 104 69 116 297 131 145 78 3 307 289 287 36 295</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\dma\UDMACC26XX.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
     <forcedrebuild>
       <name>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Devices\ext_flash.c</name>
       <tool>ICCARM</tool>
@@ -921,43 +906,51 @@
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286.c</name>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\npi_tl_uart.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286_util.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\pin\PINCC26XX.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\pin\PINCC26XX.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\SPI.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\spi\SPICC26XXDMA.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\spi\SPICC26XXDMA.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\common\cc26xx\util.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>C:\ti\tirtos_simplelink_2_13_00_06\packages\ti\drivers\dma\UDMACC26XX.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\lcd\LCDDogm1286_util.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\drivers\SPI.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad_target_externalFlash.c</name>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\simpleBLEPeripheral.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad_target_internalFlash.c</name>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\npi_tl.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
-      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oadResetService.c</name>
+      <name>$PROJ_DIR$\..\..\..\Source\Application\tl.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\Roles\CC26xx\peripheral.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\..\tirtos_simplelink_2_13_00_06\packages\ti\boards\SRF06EB\Board.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
@@ -965,7 +958,27 @@
       <tool>ICCARM</tool>
     </forcedrebuild>
     <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oadResetService.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\SimpleProfile\CC26xx\simpleGATTprofile.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
       <name>$PROJ_DIR$\..\..\..\..\..\SensorTag\CC26xx\Source\Application\Board_patch\Board.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad_target_internalFlash.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\Profiles\OAD\CC26xx\oad_target_externalFlash.c</name>
       <tool>ICCARM</tool>
     </forcedrebuild>
   </configuration>
