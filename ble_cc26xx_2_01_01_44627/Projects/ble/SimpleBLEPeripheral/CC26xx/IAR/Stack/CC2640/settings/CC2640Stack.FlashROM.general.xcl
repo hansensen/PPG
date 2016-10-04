@@ -2,7 +2,7 @@
 
 "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armxds2.dll" 
 
-"D:\PPG\Implementation\ble_cc26xx_2_01_01_44627_0906_2\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\FlashROM\Exe\SimpleBLEPeripheralStackFlashROM.out" 
+"D:\Git\PPG\ble_cc26xx_2_01_01_44627\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\FlashROM\Exe\SimpleBLEPeripheralStackFlashROM.out" 
 
 --plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
 

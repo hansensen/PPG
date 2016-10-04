@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\PPG\Implementation\ble_cc26xx_2_01_01_44627_0906_2\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\settings\CC2640Stack.FlashROM.general.xcl" --backend -f "D:\PPG\Implementation\ble_cc26xx_2_01_01_44627_0906_2\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\settings\CC2640Stack.FlashROM.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\Git\PPG\ble_cc26xx_2_01_01_44627\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\settings\CC2640Stack.FlashROM.general.xcl" --backend -f "D:\Git\PPG\ble_cc26xx_2_01_01_44627\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\settings\CC2640Stack.FlashROM.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\PPG\Implementation\ble_cc26xx_2_01_01_44627_0906_2\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\settings\CC2640Stack.FlashROM.general.xcl" "--debug_file=%~1" --backend -f "D:\PPG\Implementation\ble_cc26xx_2_01_01_44627_0906_2\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\settings\CC2640Stack.FlashROM.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\Git\PPG\ble_cc26xx_2_01_01_44627\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\settings\CC2640Stack.FlashROM.general.xcl" "--debug_file=%~1" --backend -f "D:\Git\PPG\ble_cc26xx_2_01_01_44627\Projects\ble\SimpleBLEPeripheral\CC26xx\IAR\Stack\CC2640\settings\CC2640Stack.FlashROM.driver.xcl" 
 
 @echo off 
 :end
